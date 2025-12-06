@@ -1,6 +1,10 @@
 import javax.sound.sampled.*;
 import java.io.File;
 import java.io.IOException;
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+
 
 public class SongPlayer {
     public static void play(String filename) {
